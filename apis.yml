@@ -1,8 +1,25 @@
 aid: blueyard
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blueyard.png
 name: BlueYard
-description: 'BlueYard is a company surfaced as a portfolio company of foundry-group and added to the
-  API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'BlueYard Capital is a venture capital firm founded in 2016, operating as a small, equal
+  partnership with offices in Europe and the United States. Managing roughly $500M in AUM, it invests
+  $500K-$5M at pre-seed to Series A as lead or co-lead investor, backing two kinds of technologies:
+  those that move us toward utopia and those that hold the line against oblivion. Its focus areas span
+  computation & intelligence, engineering/aerospace & defense, biology & chemistry, and crypto. Notable
+  portfolio companies and exits include Privy (acquired by Stripe), Groq, IonQ, Filecoin, Castelion,
+  and Marvel Fusion. This profile was surfaced as a portfolio relationship of foundry-group and enriched
+  from BlueYard''s public website; it exposes no public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/blueyard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Venture Capital
+- Deep Tech
+- Computation
+- Aerospace
+- Defense
+- Biology
+- Crypto
+- Pre-Seed
+- Seed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,14 @@ maintainers:
 common:
 - type: Website
   url: https://blueyard.com
+- type: About
+  url: https://blueyard.com/put-your-hand-in-the-box-the-spirit-of-blueyard
+- type: Blog
+  url: https://blueyard.medium.com
+- type: X
+  url: https://x.com/blueyard
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
